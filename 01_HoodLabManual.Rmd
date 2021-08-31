@@ -60,9 +60,9 @@ Funding
  
 It looks like you recently joined the Hood Lab in The Ohio State University’s (THE OSU) Evolution, Ecology, and Organismal Biology Department. That’s great! We’re really glad to have you here, and will do what we can to make your time in the lab amazing. We hope you’ll learn a lot about limnology and ecology, develop new skills (coding, data analysis, writing, giving talks, field and laboratory methods), make new friends, and have a great deal of fun throughout the whole process.
  
-This lab manual was largely adapted from Mariam Aly’s (Columbia). Her manual was inspired by several others, and borrows heavily from them (e.g., this one and this one). It’s also a work in progress. If you have ideas about things to add, or what to clarify, talk to me (Jim, the PI) or the lab manager.
+This lab manual was largely adapted from Mariam Aly’s (Columbia). Her manual was inspired by several others, and borrows heavily from them (e.g., this *one* and this *one*). It’s also a work in progress. If you have ideas about things to add, or what to clarify, talk to me (Jim, the PI) or the lab manager.
  
-When you join the lab, you’re expected to read this manual and sign a form indicating that you have done so. We will have a meeting at the beginning of the semester to discuss expectations.
+When you join the lab, you’re expected to read this manual. We will dedicate a lab meeting at the beginning of each year towards discussing the lab manual.
  
 This lab manual is licensed under a Creative Commons Attribution - NonCommercial 4.0 International License. If you’re a PI or a trainee in a different lab and want to write your own lab manual, feel free to take inspiration from this one (and cite us!).
  
@@ -75,7 +75,7 @@ This lab manual is licensed under a Creative Commons Attribution - NonCommercial
  
   - Work on what you’re passionate about, work hard at it, and be proud of it. Be so proud of it that you have to suppress bragging (but it’s ok to brag sometimes).
 
-  - Scientists have to be careful. Don’t rush your work. Think about it. Implement it. Double and triple check it. Incorporate sanity checks. Ask others to look at your code or data if you need help or something looks off. When you finalize your code ask someone else to review it. It’s ok to make mistakes, but mistakes shouldn’t be because of carelessness or rushed work.
+  - Scientists have to be careful. Don’t rush your work. Think about it. Implement it. Double and triple check it. Incorporate sanity checks. Ask others to look at your code or data if you need help or something looks off. When you finalize your code ask someone else to review it. It’s ok to make mistakes, but mistakes shouldn’t be because of carelessness or rushed work. Don't hesitate to ask your labmates (including Jim) for help.
 
   - If you do make a mistake, you should definitely tell your collaborators (if they have already seen the results, and especially if the paper is being written up, is already submitted, or already accepted). We admit our mistakes, and then we correct them and move on.
 
@@ -86,22 +86,24 @@ This lab manual is licensed under a Creative Commons Attribution - NonCommercial
   - Respect your lab-mates. Respect their strengths and weaknesses, respect their desire for quiet if they need it, and for support and a kind ear when they need that. 
 
   - The Hood lab strives to create a safe and supportive atmosphere for all individuals regardless of gender, race, sexual orientation, or research focus. We will always create an environment where research and scientific debate can proceed in a kind and supportive atmosphere. We will not tolerate bullying or ad hominem attacks.
-Challenge me (Jim) when I’m wrong or when your opinion is different, and treat the rest of the lab to your unique expertise 
-If you’re struggling, tell Jim, tell someone. Your health and happiness come first. The lab looks out for the well-being of all its members. We are here to help. It’s ok to go through hard patches (we all do), but you shouldn’t feel shy about asking for help or just venting.
+  
+  - Challenge me (Jim) when I’m wrong or when your opinion is different, and treat the rest of the lab to your unique expertise.
+  
+  - If you’re struggling, tell Jim, tell someone. Your health and happiness come first. The lab looks out for the well-being of all its members. We are here to help. It’s ok to go through hard patches (we all do), but you shouldn’t feel shy about asking for help or just venting.
 
   - If there is any tension or hostility in the lab, something has to be done about it immediately. We can’t thrive in an environment we aren’t comfortable in, and disrespect or rudeness will not be tolerated in the lab. If you don’t feel comfortable confronting the person in question, tell Jim. In any case, tell Jim.
 
-  - If you have a problem with Jim and are comfortable telling him about it, please do! If you are not comfortable, then tell the lab manager (for smaller issues) or Stu, Libby, Corey Ash, or the Graduate Studies Committee Chair. For more serious issues the proper official channels for a dispute with Jim would be the Graduate Studies Committee Chair (for graduate students) or the department chair (for staff). The Office of Student Advocacy (http://advocacy.osu.edu/) and the Office of Equity (https://equity.osu.edu/) are also good options for certain types of issues.
+  - If you have a problem with Jim and are comfortable telling him about it, please do! If you are not comfortable, then tell the lab manager (for smaller issues) or Stu, Libby, Corey Ash, or the Graduate Studies Committee Chair (currently Libby). For more serious issues the proper official channels for a dispute with Jim would be the Graduate Studies Committee Chair (for graduate students) or the department chair (for staff). The Office of Student Advocacy (http://advocacy.osu.edu/) and the Office of Equity (https://equity.osu.edu/) are also good options for certain types of issues.
 
   - Stay up to date on the latest research, by using RSS feeds and/or checking journal table of contents. Also consider following scientists in the field on Twitter.
 
-  - Remember the lab philosophy: “We like to do good science and have fun. At the same time, but also separately”. Have a life outside of the lab, take care of your mental and physical health, and don’t ever feel bad about taking a holiday now and then.
+  - Remember the lab philosophy: “We like to do good science and have fun. At the same time, but also separately”. Have a life outside of the lab, take care of your mental and physical health, and don’t feel bad about taking a holiday now and then.
 
-  - Be tidy in your data collection and analysis, and follow a reproducible workflow approach. This involves organization and planning at every step, from study design to data collection and analysis. Maintain clear and detailed field and laboratory notebooks or datasheets, keep your data well-organized and your code well-annotated, and regularly make digital backup copies in the Z-Drive and Box, in addition to any other storage system you may use. All projects should contain metadata that details how samples were collected and processed, provides information on data files (i.e, explanations on abbreviated codes and column headings), and summarizes any necessary data processing and statistical analyses.
+  - Be tidy in your data collection and analysis, and follow a reproducible workflow approach. This involves organization and planning at every step, from study design to data collection and analysis. Maintain clear and detailed field and laboratory notebooks or datasheets, keep your data well-organized and your code well-annotated, and regularly make digital backup copies in the Z-Drive and OneDrive, in addition to any other storage system you may use. All projects should contain metadata that details how samples were collected and processed, provides information on data files (i.e, explanations on abbreviated codes and column headings), and summarizes any necessary data processing and statistical analyses.
  
-##Small Picture
+## Small Picture
  
-  - There are a few day-to-day things to keep in mind to keep the lab running smoothly.
+There are a few day-to-day things to keep in mind to keep the lab running smoothly:
  
   - If you’re sick, stay home and take care of yourself – because you need it, and others don’t need to get sick. If you’re sick, reschedule your meetings for the day (or the next couple of days) as soon as you can.
 
@@ -109,7 +111,9 @@ If you’re struggling, tell Jim, tell someone. Your health and happiness come f
 
   - Complete and stay up-to-date on all laboratory safety, diversity, and research conduct training. If you are new to the laboratory, you should be contacted by the AEL laboratory safety manager on how to access the training modules. Please complete all required laboratory safety training before beginning in the laboratory. Some training must be completed annually-- you should receive an email notification when your training is set to expire or if a new training becomes required-- be sure to complete these and stay compliant!
 
-  - Keep the lab tidy. If you notice something is not working correctly, tell the lab manager. Put lab equipment back where you found it. Keep common areas uncluttered. No food or drink is allowed in the lab areas.
+  - Keep the lab tidy. If you notice something is not working correctly, tell the lab manager. Put lab equipment back where you found it. Keep common areas uncluttered. 
+  
+  - No food or drink is allowed in the lab areas.
 
   - Dress code is casual; long pants and closed-toed shoes are required for working in the lab spaces. You can dress up if you want to, but be aware of the chemicals/acids you and others are working with and their potential to damage clothing.  
 
@@ -120,7 +124,7 @@ If you’re struggling, tell Jim, tell someone. Your health and happiness come f
  
 ## Principal Investigator
  
-  - All of the above  listed in the Big Picture and Small Picture sections, and I promise to also…
+All of the above  listed in the Big Picture and Small Picture sections, and I promise to also…
 
   - Support you (scientifically, emotionally, financially) to the degree possible
   
@@ -132,25 +136,25 @@ If you’re struggling, tell Jim, tell someone. Your health and happiness come f
   
   - Support your career development by introducing you to other researchers in the field, promoting your work at talks, writing recommendation letters for you, and letting you attend conferences as often as finances permit
   
-  - Help you prepare for the next step of your career, whether it’s a postdoc, a faculty job, or a job outside of academia
+  - Help you prepare for the next step of your career, whether it is a postdoc, a faculty job, or a job outside of academia
   
   - Help care for your emotional and physical well-being.
 
 ## Postdocs & graduate students: hours and “facetime”
 
 
-  - Frequently, students and postdocs ask how many hours they should be working a week. A glib answer is however many hours it takes; however, in science there is always more to do, one more project to work on, or one more committee to serve on. It can consume your life! Thus, a better question might be where to draw the line? I’d recommend (following Mike Vanni, Libby, and Stu) that in an average week you should draw the line around 60 hours, which would include sciencing, classes, TA or RA responsibilities, committee work, and other stuff. The challenge is to be efficient and careful about what you take on so that you can get what you need done (your sciencing) for your degree/future career in the allotted time. Of course, there will be weeks where you may need to take it easy on yourself (and of course there’s vacation) and there will be times when you work an obscene number of hours (e.g., during your field season). Make sure that you balance these periods and take care of your mental and physical health. This is a marathon and you don’t want to burn out in mile 15.
+  - Frequently, students and postdocs ask how many hours they should be working a week. A glib answer is however many hours it takes; however, in science there is always more to do, one more project to work on, or one more committee to serve on. It can consume your life! Thus, a better question might be where to draw the line? I’d recommend (following Mike Vanni, Libby, and Stu) that in an average week you should draw the line around 60 hours, which would include sciencing, classes, TA or RA responsibilities, committee work, and other stuff. The challenge is to be efficient and careful about what you take on so that you can get what you need done (your sciencing) for your degree/future career in the allotted time. Of course, there will be weeks where you may need to take it easy on yourself (and of course there’s vacation) and there will be times when you work an obscene number of hours (e.g., during your field season). Make sure that you balance these periods and take care of your mental and physical health. You will also have to carefully consider all of your obligations to achieve these targets. This is a marathon and you don’t want to burn out in mile 15.
 
   - Show up to your meetings, classes, and lab meetings. You do not have to be in at 9 AM every day – just show up for your commitments and work the hours you need to work to get stuff done. I recommend that students and postdocs be around the AEL for part of the work day during most days – this builds a community. If something or someone is keeping you for working in the AEL talk to Jim.
 
   - I don’t exactly expect you to come into the lab on weekends and holidays, and you are not expected to stay late at night. There are times when working nights and weekends is necessary (i.e., field work, experiments). You are expected to get your work done (whatever time of day you like to do it).
 
-  - This faculty diversity webinar series provides some excellent tips for goal setting and managing your time. You can create a free account through OSU. Additional useful seminars and resources on productivity and goal setting can be found on the Z-Drive (Z://Projects > Hood Lab Protocols > Time Mgmt and Productivity)
+  - This *faculty diversity webinar* series provides some excellent tips for goal setting and managing your time. You can create a free account through OSU. Additional useful seminars and resources on productivity and goal setting can be found on the Z-Drive (Z://Projects > Hood Lab Protocols > Time Mgmt and Productivity)
 
 
 ## Postdocs
  
-  - All of the above listed in the Big Picture and Small Picture sections, and you will also be expected to…
+All of the above listed in the Big Picture and Small Picture sections, and you will also be expected to…
   
   - Develop your own independent line of research to the degree allowed by the grant(s) supporting your position
   
@@ -158,13 +162,13 @@ If you’re struggling, tell Jim, tell someone. Your health and happiness come f
   
   - Present your work at departmental events, at other labs , and at conferences
   
-  - Apply for grants (Lake Erie Protection Fund, Ohio SeaGrant, Ohio Water Resources Center, NSF, and others). Though I will only hire you if I can support you for at least one year, it’s in your best interest to get experience writing grants – and if you get them, you’ll be helping out the entire lab as well as yourself (because you’ll free up funds previously allocated to you)
+  - Apply for grants (Lake Erie Protection Fund, Ohio SeaGrant, Ohio Water Resources Center, NSF, and others). Though I will only hire you if I can support you for at least one year, it’s in your best interest to get experience writing grants – and if you get them, you’ll be helping out the entire lab as well as yourself (because you’ll free up funds previously allocated to you).
   
   - Apply for jobs (academic or otherwise) when you’re ready, but no later than the beginning of your 4th year of postdoc. But you should start applying after about 1 year of postdocing. If you think you’d like to leave academia, that’s completely okay – but you should still treat your postdoc seriously, and talk to me about how to best train for a job outside academia.
 
 ## Graduate Students
  
-  - All of the above listed in the Big Picture and Small Picture sections, and you will also be expected to…
+All of the above listed in the Big Picture and Small Picture sections, and you will also be expected to…
   
   - Develop your dissertation or thesis research.
   
@@ -193,13 +197,11 @@ Attend weekly departmental seminars, graduate student pizza lunches, and Monday 
  
 ## Lab Managers
  
-  - All of the above listed in the Big Picture and Small Picture sections, and you will also be expected to…
+All of the above listed in the Big Picture and Small Picture sections, and you will also be expected to…
 
-  - Work on your own research project (developed with Jim’s help)
+  - Help new lab members adjust to the lab by answering whatever questions they have that you can answer. If you can’t answer, direct their questions to Jim or others in the lab.
 
-  - Help new lab members adjust to the lab by answering whatever questions they have that you can answer. If you can’t answer, direct their questions to Jim.
-
-  - Maintain EHSO lab safety rules and Hood Lab specific protocols for the lab (writing them, renewing them), archive old consent forms, keep any required paperwork up to date and organized
+  - Maintain EHS lab safety rules and Hood Lab specific protocols for the lab (writing them, renewing them), archive old consent forms, keep any required paperwork up to date and organized
 
   - Oversee the hiring, scheduling, and training of undergraduate research assistants
 
@@ -213,7 +215,7 @@ Attend weekly departmental seminars, graduate student pizza lunches, and Monday 
  
 ## Research Assistants
 
-  - All of the above listed in the Big Picture and Small Picture sections, and you will also be expected to…
+All of the above listed in the Big Picture and Small Picture sections, and you will also be expected to…
 
   - Help new lab members adjust to the lab by answering whatever questions they have that you can answer. If you can’t answer, direct their questions to Jim. 
 
@@ -221,7 +223,7 @@ Attend weekly departmental seminars, graduate student pizza lunches, and Monday 
 
 ## Undergraduate Students
 
-  - All of the above listed in the Big Picture and Small Picture sections, and you will also be expected to…   
+All of the above listed in the Big Picture and Small Picture sections, and you will also be expected to…   
 
   - Display a commitment to learning and gaining research experience. The Hood Lab welcomes undergraduates from all backgrounds and levels of experience. Whether this is your first time in a laboratory setting or you’ve had significant research experience, we are excited to work with you! We also acknowledge that undergraduates apply to our lab for various reasons, whether to gain general laboratory experience, due to a potential interest in aquatic ecology, or because you intend to pursue a career in ecological research. No matter your experience, reason for joining, or research position (volunteer, federal work study student, thesis student, ect.) we expect you to display a commitment to your research and the Lab. You will work with your research mentor to develop research goals, activities, and hours committed per week, and we expect you to uphold your commitment to your research and to your mentor. In turn, your mentor will provide you with the guidance and teaching to gain significant and hopefully enriching research experience. While in the lab or field, we ask you to display positivity, curiosity, and a respect for others. If you are unsure of something or want to learn more, never be afraid to ask questions. If for any reason you cannot fulfill the research commitments you agreed upon with your mentor, please talk with your mentor as soon as possible to re-evaluate your goals and adjust hours accordingly.
 
@@ -276,9 +278,9 @@ Research credit: There are a variety of opportunities for undergraduates to earn
 ## Using vehicles:
   - Protocol for using vehicles can be found on Z drive (All Users>AEL Vehicles>General Vehicle Use Instructions)
 
-  - No taking vehicles to campus because u don’t wanna take the bus...or for personal use
+  - No taking vehicles to campus because you don’t wanna take the bus...or for personal use
 
-  - If you damage a state vehicle while not working on OH DOW work there is a $10,000 deductible!.
+  - If you damage a state vehicle while not working on OH DOW work there is a $10,000 deductible!
 
   - You are not allowed to go by yourself! But you absolutely tell someone where you are going and when you will be back.
 
@@ -287,7 +289,7 @@ Research credit: There are a variety of opportunities for undergraduates to earn
  
 ## Essential Policies
 
-  - The lab, and the university, is an environment that must be free of harassment and discrimination. All lab members are expected to abide by The Ohio State University’s policies on discrimination and harassment, which you can (and must) read about here. Essential policies of OSU can be accessed here. 
+  - The lab, and the university, is an environment that must be free of harassment and discrimination. All lab members are expected to abide by The Ohio State University’s policies on discrimination and harassment, which you can (and must) read about *here*. Essential policies of OSU can be accessed *here*. 
  
   - The lab is committed to ensuring a safe, friendly, and accepting environment for everybody. We will not tolerate any verbal or physical harassment or discrimination on the basis of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, or religion. We will not tolerate intimidation, stalking, following, unwanted photography or video recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention. Finally, it should go without saying that lewd language and behavior have no place in the lab, including any lab outings. 
  
@@ -302,19 +304,19 @@ Research credit: There are a variety of opportunities for undergraduates to earn
 # Scientific Integrity
  
 ## Research (Mis)conduct
-  - The lab, and The Ohio State University, is committed to ensuring research integrity, and we take a hard line on research misconduct. We will not tolerate fabrication, falsification, or plagiarism. Read OSU’s policies on the conduct of research carefully (main page here, research data  policy here).
+  - The lab, and The Ohio State University, is committed to ensuring research integrity, and we take a hard line on research misconduct. We will not tolerate fabrication, falsification, or plagiarism. Read OSU’s policies on the conduct of research carefully (main page *here*, research data  policy *here*).
  
   - A central issue may be why people feel the need to engage in misconduct in the first place, and that’s a discussion that we can have. If you are feeling pressured to succeed (publish a lot, publish in high impact journals), you should reach out to Jim to discuss this issue. Nevertheless, this pressure is something we all face and is never an excuse to fabricate, falsify, or plagiarize. Also, think about the goal of science and why you are here: you’re here to generate new knowledge, and to get as close as we can to facts about our study system. Not only is research misconduct doing you a disservice, it’s also a disservice to the field. And it risks your entire career. It is never right and never worth it. Don’t do it.
  
 ## Reproducible Research
   - If you gave someone else your raw data, they should be able to reproduce your results exactly. This is critical, because if they can’t reproduce your results, it suggests that one (or both) of you has made errors in the analysis, and the results can’t be trusted. Reproducible research is an essential part of science, and an expectation for all projects in the lab.
  
-  - For results to be reproducible, the analysis pipeline must be organized and well documented. To meet these goals, you should take extensive notes on each step of your analysis pipeline. This means writing down how you did things every step of the way (and the order that you did things), from any pre-processing of the data to exploratory data analyses to building statistical models. It’s also worth mentioning that you should take detailed notes on your fieldwork, labwork, and experimental design as well. Additionally, you should comment on your code as you write it and then review the comments upon completion to ensure that they will make sense two months or a year later. We all know what it’s like to sit down, quickly write a bunch of code to run an analysis without taking time for documentation, and then having no idea what we did a few months down the road. Comment your code so that every step is understandable by an outsider. Finally, it is highly encouraged that you use some form of version control (e.g., Git in combination with GitHub) to keep track of what code changes you made and when you made them, as well as sharing code with others. The lab’s GitHub is https://github.com/alylab.
+  - For results to be reproducible, the analysis pipeline must be organized and well documented. To meet these goals, you should take extensive notes on each step of your analysis pipeline. This means writing down how you did things every step of the way (and the order that you did things), from any pre-processing of the data to exploratory data analyses to building statistical models. It’s also worth mentioning that you should take detailed notes on your fieldwork, lab work, and experimental design as well. Additionally, you should comment on your code as you write it and then review the comments upon completion to ensure that they will make sense two months or a year later. We all know what it’s like to sit down, quickly write a bunch of code to run an analysis without taking time for documentation, and then having no idea what we did a few months down the road. Comment your code so that every step is understandable by an outsider. Finally, it is highly encouraged that you use some form of version control (e.g., Git in combination with GitHub) to keep track of what code changes you made and when you made them, as well as sharing code with others. The lab’s GitHub is *https://github.com/alylab.*
  
   - Reproducibility is related to replicability, which refers to whether your results can be obtained again with a different data set. If someone ran a conceptually similar study, do they get the same results? Science grows and builds on replicable results – one-off findings don’t mean anything. Our goal is to produce research that is both reproducible and replicable.
 
 JIM CLEAN UP
-  - Data should be entered in a “tidy” format and all R code should be well-annotated. File names should follow a logical naming convention, files stored in a structured organization system, and all data should be backed up regularly. There are many great resources for data management- some of which can be found here, here, and here. Creating a reproducible workflow can at first take a lot of planning and effort, but will ultimately save you time when re-visiting an analysis, writing up your methods and results, or sharing your work with collaborators. See the “Reproducible Research” and “Data Organization” sections below for more details. 
+  - Data should be entered in a “tidy” format and all R code should be well-annotated. File names should follow a logical naming convention (I like a linear order [01, 02, 03...] with meaningful file names), files stored in a structured organization system, and all data should be backed up regularly. There are many great resources for data management- some of which can be found *here*, *here*, and *here.* Creating a reproducible workflow can at first take a lot of planning and effort, but will ultimately save you time when re-visiting an analysis, writing up your methods and results, or sharing your work with collaborators. See the “Reproducible Research” and “Data Organization” sections below for more details. 
 
   - Reproducible work flow - to do list for this
   - How to structure code
@@ -357,31 +359,31 @@ Microsoft Teams will be used as the primary means of lab communication. Please u
  
 Notes for the Hood Lab Teams. When posting messages or looking for updates, check the appropriate channel: “General” for lab-wide announcements and resources/papers relevant to all lab members; “LabMeetings” for sharing materials and communication related to Hood Lab meetings; “LabStuff” for announcements and discussion related to laboratory space, equipment, field work, or coordinating undergraduate assistants; “Rtips” for sharing wisdom on code writing or asking (and answering) the coding questions of others; “LEPAS” and “LEPAS_issues” for any discussion or questions about LEPAS data, and “Random” for non-work-related chatting that is best kept out of the work-related channels. Additionally, many projects have their own specific channels-- you can change your settings to set notification alerts, view, or hide any of the channels as needed.
  
-Try to keep each channel on topic, so that people can subscribe only to the channels that concern them. For messages to one person or a small group that don’t belong in a channel, use direct messages. Feel free to share files on Teams (either over a channel or in direct messages), but remember that permanent file sharing and saving should occur in Box. For messages that include out-of-lab recipients, use email. If it’s an emergency and Jim isn’t responding on Teams text or call him.
+Try to keep each channel on topic, so that people can subscribe only to the channels that concern them. For messages to one person or a small group that don’t belong in a channel, use direct messages. Feel free to share files on Teams (either over a channel or in direct messages), but remember that permanent file sharing and saving should occur in OneDrive For messages that include out-of-lab recipients, use email. If it’s an emergency and Jim isn’t responding on Teams text or call him.
  
 Full-time lab members should install Teams on their computers and/or phones. Part-time lab members should also check Teams regularly. You should of course feel free to ignore Teams on evenings and weekends – and Jim probably will, too!
 
  
 ## AEL Z Drive
 
-Lab members are expected to backup all work (i.e., data files, R code, figures, manuscript drafts, SOPs) on the AEL server (Z Drive) every month. Files should be stored under specific projects in the “Projects > Hood_Lab_Data” folder. <-Hannah 
+Lab members are expected to backup all work (i.e., data files, R code, figures, manuscript drafts, SOPs) on the AEL server (Z Drive) every month. Files should be stored under specific projects in the “Projects > Hood_Lab_Data” folder. 
 
-## BOX
+## OneDrive
   - Alternative place to keep files, share them, and back them up. 
 
-  - Keep all data, R scripts, analyses, and manuscript drafts on Box (or the Z drive) to take advantage
+  - Keep all data, R scripts, analyses, and manuscript drafts on Box (or the Z drive).
 
-  - Make sure Jim is an owner of all files containing data
+  - Make sure Jim is an owner of all Onedrive files containing data
 
 ## OneDrive
   - OneDrive is an alternative place to keep files, share them, and back them up
   - All students, staff, and faculty have unlimited OneDrive storage tied to their OSU account
   - Documents, Powerpoints, etc. can be shared and live edited, much like Google Drive
-  - OneDrive replaces BOX Spring of 2022
+
 
 ## GitHub
 
-The lab’s GitHub (https://github.com/alylab) should be used to share code data with the world. Only share data after you’ve spoken to Jim (we don’t want to share the data too soon, before you’ve had a chance to look at it thoroughly yourself). When you share code, make sure it’s flawless, because we don’t want to distribute buggy code to the world! Have other lab members check it if possible. Ask the lab manager to get access to the lab’s GitHub. Danny will teach us to use GitHub
+The lab’s GitHub (https://github.com/alylab) should be used to share code data with the world. Only share data after you’ve spoken to Jim (we don’t want to share the data too soon, before you’ve had a chance to look at it thoroughly yourself). When you share code, make sure it’s flawless, because we don’t want to distribute buggy code to the world! Have other lab members check it if possible. Ask the lab manager to get access to the lab’s GitHub. 
  
 ## Google Calendars
 
@@ -426,7 +428,7 @@ Motivated by the concerns of some lab members, and in conversation with them, we
  
 ## PI Office Hours
 
-In addition to weekly meetings (see below), and occasionally dropping by the lab, Jim is in his AEL office several days a week. His door is frequently open; if it is, feel free to ask for a chat. He will always say yes, though sometimes he can only spare a couple of minutes or might ask you to let him finish typing a sentence. If his door is closed, assume that Jim is either gone, in a meeting in his office, or does not want to be disturbed – so please Slack Jim on Teams rather than knocking. Of course, you can always knock if there is a true emergency. 
+In addition to weekly meetings (see below), and occasionally dropping by the lab, Jim is in his AEL office several days a week. His door is frequently open; if it is, feel free to ask for a chat. He will almost always say yes, though sometimes he can only spare a couple of minutes or might ask you to let him finish typing a sentence. If his door is closed, assume that Jim is either gone, in a meeting in his office, or does not want to be disturbed – so please Slack Jim on Teams rather than knocking. Of course, you can always knock if there is a true emergency. 
  
 # Meetings
 
@@ -457,13 +459,19 @@ EDIT (Editorial Deliberations and Investigations Team) is a regular meeting of a
 
 One way of maintaining sanity in the academic work is to be as organized as possible. This is essential because disorganization doesn’t just hurt you, it hurts your collaborators and people whose help you need. Organization helps you, me, and your colleagues maintain their work/life balance. When it comes to deadlines, tell your collaborators as soon as you know when a deadline is, and remind them as the deadline approaches. Don’t be afraid to bug them about it (yes, bug Jim as well).
  
-Give Jim at least one week’s notice to do something with a hard deadline that doesn’t require a lot of time (e.g., reading/commenting on conference abstracts, filling out paperwork, etc). 
+Give Jim at least one week to do something with a hard deadline that doesn’t require a lot of time (e.g., reading/commenting on conference abstracts, filling out paperwork, etc). 
  
-Give Jim at least two weeks’ notice (preferably more) to do something with a hard deadline that requires a moderate amount of time (e.g., a letter of recommendation). 
+Give Jim at least two weeks (preferably more) to do something with a hard deadline that requires a moderate amount of time (e.g., a letter of recommendation). 
  
 If you want feedback on grant applications, research and teaching statements, or other work that requires multiple back-and-forth interactions between you and Jim before a hard deadline, give him as much time as you can; at the very least three weeks.
  
-For manuscript submissions and revisions (i.e., which either have no deadline at all or only a weak deadline), send drafts to Jim as soon as you have them, and bug him to give you feedback if she hasn’t responded in two weeks – papers are important!
+For manuscript submissions and revisions (i.e., which either have no deadline at all or only a weak deadline), send drafts to Jim as soon as you have them, and bug him to give you feedback if he hasn’t responded in two weeks – papers are important!
+
+So, are you frustrated that Jim hasn't given you enough face to face time or feedback on something? It will happen. I think it might be helpful to know about how my time is structured.
+
+1) My job description is 50% research, 40% teaching, and 10% service. During some periods I have to focus entirely on research or entirely on teaching.
+
+2) At the start of the average week, I usually have about 12 hours between 9 and 5 that are not directly scheduled for teaching or meetings. I usually loose 4 of those hours to rapidly scheduled meetings. By getting up early and working at nights I'm usually able to gain another 15 hours. So, that leaves me with 23 hours in the average week to prepare for teaching (9 h), for research (11.5 h), and for service (2 h). As a result, I have to triage nearly everything. If its not an absolute priority (preparing something with a hard deadline, writing papers, or proposal, or dealing with various crises), things often get pushed back or delegated. This free time often gets taken up pretty quickly. For instance, providing comments on a manuscript usually takes 4-10 hours. That's nearly a week of research time!
 
 ## Presentations
 
@@ -490,7 +498,7 @@ Do not hesitate to ask for letters of recommendation for jobs, grants, etc. If y
 
 Lab data can be stored in one of three places:
  
-1.         Lab server(s): Is the permanent home for LEPAS and other datasets, as well as all materials related to your research (e.g., R code, manuscript drafts, SOPs)
+1.         Lab server(s): Is the permanent home for LEPAS and other datasets, as well as all materials related to your research (e.g., data, R code, manuscript drafts, SOPs)
 2.         Shared Box folders can be used to share small datasets and/or code with collaborators
 3.         Unity (Arts and Sciences HPC cluster) can be used to store small amounts of data as you are running analyses on it – it is not for permanent storage, as we only have a limited amount of space there
  
@@ -512,7 +520,7 @@ Within each folder, I find it helpful to number the analyses: “00_” data use
 projectName/Talks
 Your talks. A new subfolder for each talk.
 projectName/Manuscripts
-Your manuscripts. A new subfolder for each manuscript
+Your manuscripts. A new subfolder for each manuscript. Often it is useful to have subfolders for data, scripts, figures, etc. within a manuscript folder.
  
 When you leave the lab, your projects directories should be set up like this, or something similarly transparent, so that other people can look at your data and code. You must do this, otherwise your analysis pipeline and data structure will be uninterpretable to others once you leave, and this will slow everyone down (and cause us to bug you repeatedly to clean up your project directory or answer questions about it). 
  
@@ -534,7 +542,7 @@ Funding for the lab currently comes from Jim’s start-up package from OSU, the 
 
 Postdocs and graduate students are strongly advised to apply for funding during their tenure. This will be discussed on a case by case basis with Jim. Please ask.
 
-At some point, you will likely be asked to provide a figure or two for a grant Jim is writing, and/or provide feedback on the grant. Relatedly, you are entitled to read any grant Jim has submitted, whether it is ultimately funded or not. Aside from being a good opportunity to learn how grants are written, this will also allow you to see his vision for the lab in the years ahead. Feel free to ask Jim to see any of his grants.
+At some point, you will likely be asked to provide a figure or two for a grant Jim is writing, and/or provide feedback on the grant. You are entitled to read any grant Jim has submitted, whether it is ultimately funded or not. Aside from being a good opportunity to learn how grants are written, this will also allow you to see his vision for the lab in the years ahead. Feel free to ask Jim to see any of his grants.
 
 Here is a list of links to grants Hood lab members commonly apply for:
 For graduate students
@@ -558,7 +566,7 @@ https://docs.google.com/spreadsheets/d/1OSY5TX5TD3EZm9bXaxswrpPIIqmsOwCOlySCrn3R
 
 
 # Graduate Student Classes
-Jim will write about how you shouldn’t be taking a lot of classes.
+*Jim will write about how you shouldn’t be taking a lot of classes.*
 
 As a graduate student, the number of credits you must be enrolled in each semester (this includes research credit + classwork) will change based on your graduate standing (pre vs. post-candidacy; GRA/GTA vs. University Fellow, ect.) as well as the academic calendar (autumn/spring vs. summer). Be sure to check the EEOB Graduate Handbook or consult with Corey Ash to make sure you’re enrolled in the proper number of credits each semester. You should also consult with the handbook for the most up-to-date course requirements. The current EEOB course requirements include:
 EEOB 8894: EEOB Introduction Seminar for incoming students
@@ -587,4 +595,4 @@ ENR 8600-- Introduction to R for Environmental Scientists
 
 
 
-[1] This was adapted from the code of conduct found here and here.
+[1] This was adapted from the code of conduct found *here* and *here.*
