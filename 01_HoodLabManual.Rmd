@@ -1,59 +1,26 @@
 ---
-title: "LabManual"
+title: "Hood Lab Manual"
 author: "JMH and lab"
-date: "last update: 5 Feb 2021"
+date: 'last update: 31 Aug 2021'
 output:
+  word_document:
+    toc: yes
   html_document:
-    toc: true
+    theme: readable
+    toc: yes
     toc_float:
-      collapsed: false
-      smooth_scroll: false
-
+      collapsed: yes
+      smooth_scroll: no
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-#Lab Manual 
- 
- 
-Table of Contents
- 
-Welcome!
- 
-Expectations and Responsibilities
-·      Everyone
-·      Principal Investigator
-·      Postdocs
-·      Graduate Students
-·      Lab Manager
-·      Undergraduate Students
- 
-Code of Conduct
-·      Essential Policies
-·      Taking Photos & Videos
-·      Scientific Integrity
 
-Lab Resources
-·      Wiki
-·      Microsoft Teams
-·      Dropbox
-·      GitHub
-·      Google Calendars
-·      E-mail
- 
-General Policies
-·      Hours
-·      Noise Policy
-·      PI Office Hours
-·      Meetings
-·      Deadlines
-·      Presentations
-·      Recommendation Letters
-·      Data Management
-·      Open Science 
- 
-Funding
+```{r include=FALSE}
+library(rmdformats)
+```
+
 
  
 # Welcome!
@@ -67,9 +34,11 @@ When you join the lab, you’re expected to read this manual. We will dedicate a
 This lab manual is licensed under a Creative Commons Attribution - NonCommercial 4.0 International License. If you’re a PI or a trainee in a different lab and want to write your own lab manual, feel free to take inspiration from this one (and cite us!).
  
  
-# Expectations and Responsibilities for Everyone
+# Expectations & Responsibilities
+
+## Everyone
  
-## Big Picture
+### Big Picture
  
   - Science is hard. But it’s also fun. In the Hood Lab, we want to make sure that everyone experiences a positive, engaging, hostility-free, challenging, and rewarding lab environment. To maintain that environment, we all have to do a few things.
  
@@ -101,7 +70,7 @@ This lab manual is licensed under a Creative Commons Attribution - NonCommercial
 
   - Be tidy in your data collection and analysis, and follow a reproducible workflow approach. This involves organization and planning at every step, from study design to data collection and analysis. Maintain clear and detailed field and laboratory notebooks or datasheets, keep your data well-organized and your code well-annotated, and regularly make digital backup copies in the Z-Drive and OneDrive, in addition to any other storage system you may use. All projects should contain metadata that details how samples were collected and processed, provides information on data files (i.e, explanations on abbreviated codes and column headings), and summarizes any necessary data processing and statistical analyses.
  
-## Small Picture
+### Small Picture
  
 There are a few day-to-day things to keep in mind to keep the lab running smoothly:
  
@@ -120,9 +89,9 @@ There are a few day-to-day things to keep in mind to keep the lab running smooth
   - Be on time. Respect that others have packed days and everyone’s time is valuable.
  
 
-# Expectations and Responsibilities for specific groups
+## Specific groups
  
-## Principal Investigator
+### Principal Investigator
  
 All of the above  listed in the Big Picture and Small Picture sections, and I promise to also…
 
@@ -152,7 +121,7 @@ All of the above  listed in the Big Picture and Small Picture sections, and I pr
   - This *faculty diversity webinar* series provides some excellent tips for goal setting and managing your time. You can create a free account through OSU. Additional useful seminars and resources on productivity and goal setting can be found on the Z-Drive (Z://Projects > Hood Lab Protocols > Time Mgmt and Productivity)
 
 
-## Postdocs
+### Postdocs
  
 All of the above listed in the Big Picture and Small Picture sections, and you will also be expected to…
   
@@ -166,7 +135,7 @@ All of the above listed in the Big Picture and Small Picture sections, and you w
   
   - Apply for jobs (academic or otherwise) when you’re ready, but no later than the beginning of your 4th year of postdoc. But you should start applying after about 1 year of postdocing. If you think you’d like to leave academia, that’s completely okay – but you should still treat your postdoc seriously, and talk to me about how to best train for a job outside academia.
 
-## Graduate Students
+### Graduate Students
  
 All of the above listed in the Big Picture and Small Picture sections, and you will also be expected to…
   
@@ -195,7 +164,7 @@ Make sure you meet all departmental deadlines (e.g., for your research topic app
 Attend weekly departmental seminars, graduate student pizza lunches, and Monday Morning Meeting.
 
  
-## Lab Managers
+### Lab Managers
  
 All of the above listed in the Big Picture and Small Picture sections, and you will also be expected to…
 
@@ -221,7 +190,7 @@ All of the above listed in the Big Picture and Small Picture sections, and you w
 
   - Be in the lab on a regular basis during normal work hours (e.g., 8 AM to 5 PM). Your presence in lab when others are around is essential. 
 
-## Undergraduate Students
+### Undergraduate Students
 
 All of the above listed in the Big Picture and Small Picture sections, and you will also be expected to…   
 
@@ -239,40 +208,7 @@ All of the above listed in the Big Picture and Small Picture sections, and you w
 
   - If you are conducting independent research, you should meet weekly with your direct mentor. Your mentor may “assign” you readings, data analysis or writing tasks, or project-based questions. You should come prepared and ready to discuss these assignments and objectives.
 
-There are many types of research positions that you can participate in as an undergraduate student. Below is a list of the positions with general descriptions, expectations, and eligibility for each position.
 
-  - Volunteer: Volunteering in the lab is a great option if you’re new to the lab or to research, can only work a limited number of hours per week, and/or can only work during specific times (i.e., summers only). You may work on a specific project with a single mentor, or conduct general lab tasks to support research for a variety of Hood Lab members-- it is up to you and your mentor to decide what your research activities will be. You should also talk with your mentor each semester to decide on your work schedule and how many hours you can commit in a given week. Before starting in the lab you must complete a Volunteer Agreement Form, which must be submitted to Melissa Marburger(.4). Any high school/minor volunteers need to complete additional paperwork to work in the lab, and anyone working with or in-proximity to a minor needs additional training through OSU.
-
-  - Federal Work Study (FWS): only undergraduates who are eligible for FWS can be hired to a FWS position. You should work with your mentor to decide your research goals and activities, which could include conducting routine lab tasks, working on a variety of projects for different lab members, or developing an independent research project. As a FWS student you shouldn’t sign up for research credit, as your position is considered employment, and you must fill out a bi-weekly timesheet that’s approved by Jim. It is your responsibility to track your FWS funding balance to ensure you don’t exceed your allotted pay over the course of the academic year. Your FWS balance begins in the summer term and ends in the spring term. In order to be eligible for FWS in the summer, you must be enrolled in a minimum of six course credits for the summer term. For more information on FWS please refer to OSU’s FWS website. 
-
-  - Other Paid Research: Available for funded grants in the lab, or if the undergraduate student secures independent funding. Students do not have to be FWS eligible. The research activities you will participate in will be specific to the grant you are being paid from. You will have to fill out a bi-weekly timesheet that’s approved by Jim.
-Research credit: There are a variety of opportunities for undergraduates to earn research credit with our lab. If you wish to enroll in non-thesis research credit, then you should enroll in EEOB 4998 or 4998H (see below). Students must enroll in research credit by the add/drop deadline, which is typically the second Friday of the semester. If you join the lab after this deadline, you can enroll in a Session Two research credit course, which officially begins in the seventh week of the semester. It is up to you and your supervisor to determine the number of research credits you should enroll in for the semester. One credit hour translates to three hours of laboratory, field and/or research work, as per the University bylaws (Chapter 3335-8-24). Activities that qualify toward research credit can entail “routine” laboratory/field/data entry tasks, but can also include small, independent, non-thesis research projects. If you are enrolled in research credit, we expect you to attend and participate in bi-weekly lab meetings. Any time spent preparing for or participating in lab meetings can count toward weekly research credit hours.
-
-  - EEOB 4998 – Undergraduate Research.  (1-12 credit hours)  Students need permission of the instructor and 2 courses in the biological sciences.  Students can enroll in it a maximum of 5 times or 12 credit hours. 
-
-  - EEOB 4998H – Undergraduate Research – Honors.  Same as above, but students must be in the Honors college.
-
-  - Thesis Credit: Students conducting an independent research thesis should enroll in thesis credit. One credit hour translates to three hours of research activity per week, as per the University bylaws (Chapter 3335-8-24). Students should attend lab meetings and present their thesis research at least once during a lab meeting.
-
-  - If students want to do a research thesis they also need to fill out an application and have it approved. See below for links for the appropriate application.
-
-  - EEOB 4999 – Undergraduate Thesis Research. (1-12 credit hours) Undergraduate research towards a thesis. Students need to take this course if they plan to graduate with research distinction. Students need permission of the instructor and 8 credit hours in biological sciences.   Students can enroll in it a maximum of 5 times or 12 credit hours.  
-
-  - EEOB 4999H – Undergraduate Thesis Research – Honors.  Same as 4999, but students must be in the Honors college.  Honors students need to take this course if they plan to graduate with Honors research distinction. More information on honors theses, as well as a link to the thesis application, can be found here.
- 
-  - NOTE: Regarding research credit-- If students want to take more than 18 credit hours/semester they need to fill out an Over 18 Hour petition with their advisor.  If the petition is approved a student will be allowed to enroll in more than 18 credit hours, and will not be charged additional tuition.  Here’s more information on the tuition:
-
-  - When a student registers for more than 18 credit hours, the student is charged additional tuition for those hours in most cases. The Board of Trustees has approved a narrow set of exceptions where students will not be charged additional tuition when they enroll in more than 18 credit hours. These exceptions are:
-
-  - Internships (courses numbered X191): When a student is registered for more than 18 credit hours and at least one of the courses is an X191 internship course, the student will not be assessed the 18+ credit hour charge.
-
-  - Research (courses numbered X998 and X999): When a student is registered for more than 18 credit hours and at least one of the courses is an X998 or X999 research course, the student will not be assessed the 18+ credit hour charge.
-
-  - Field Experience (courses numbered X189): When a student is registered for more than 18 credit hours and at least one of the courses is an X189 field experience course, the student will not be assessed the 18+ credit hour charge.
-
-  - Courses for Graduating Students: When a student is registered for more than 18 credit hours and is rank 4 and has applied to graduate, the student will not be assessed the 18+ credit hour charge. All other enrollments in more than 18 credit hours will result in additional tuition/fees being assessed.
-
-  - Example questions for interviewing  undergraduate researchers and other resources for undergraduate hiring are located in the Z-drive (Hood Lab protocols > Undergrad Hiring).
 
 # Field work
 ## Using vehicles:
@@ -301,9 +237,9 @@ Research credit: There are a variety of opportunities for undergraduates to earn
  
   - The goal of this is to foster an environment where everyone feels safe to be who they are, take risks, and have fun, without worry or self-consciousness. If someone wants to be photographed doing something fun or silly in lab events, and consents to be photographed, by all means go ahead! Just please respect the privacy of those who do not want that.
  
-# Scientific Integrity
+
  
-## Research (Mis)conduct
+## Scientific Integrity: research (Mis)conduct
   - The lab, and The Ohio State University, is committed to ensuring research integrity, and we take a hard line on research misconduct. We will not tolerate fabrication, falsification, or plagiarism. Read OSU’s policies on the conduct of research carefully (main page *here*, research data  policy *here*).
  
   - A central issue may be why people feel the need to engage in misconduct in the first place, and that’s a discussion that we can have. If you are feeling pressured to succeed (publish a lot, publish in high impact journals), you should reach out to Jim to discuss this issue. Nevertheless, this pressure is something we all face and is never an excuse to fabricate, falsify, or plagiarize. Also, think about the goal of science and why you are here: you’re here to generate new knowledge, and to get as close as we can to facts about our study system. Not only is research misconduct doing you a disservice, it’s also a disservice to the field. And it risks your entire career. It is never right and never worth it. Don’t do it.
@@ -349,10 +285,7 @@ If a student or postdoc voluntarily relinquishes their rights to the project pri
  
 # Lab Resources
  
-## Protocol folder on Z drive
 
-JIM WRITE SOMETHING The lab wiki (https://osf.io/mdh87/wiki/home/) is, well, a wiki for the lab. It has all of the information you need to get started, including tasks that need to be done upon arrival, day-to-day housekeeping duties, forms and flyers, programming and stats tips, information about accessing the high-performance computing cluster and lab servers. Edit it when you obtain information that will be useful for others to know! Ask the lab manager to be added as a member.
- 
 ## Slack on Teams (aka-- Microsoft Teams)
 
 Microsoft Teams will be used as the primary means of lab communication. Please use your best judgement as to which topics are appropriate for which Teams channels. For example, lab social gatherings at Lineage are not appropriate material for the LEPAS channel.
@@ -368,22 +301,18 @@ Full-time lab members should install Teams on their computers and/or phones. Par
 
 Lab members are expected to backup all work (i.e., data files, R code, figures, manuscript drafts, SOPs) on the AEL server (Z Drive) every month. Files should be stored under specific projects in the “Projects > Hood_Lab_Data” folder. 
 
-## OneDrive
-  - Alternative place to keep files, share them, and back them up. 
-
-  - Keep all data, R scripts, analyses, and manuscript drafts on Box (or the Z drive).
-
-  - Make sure Jim is an owner of all Onedrive files containing data
 
 ## OneDrive
   - OneDrive is an alternative place to keep files, share them, and back them up
   - All students, staff, and faculty have unlimited OneDrive storage tied to their OSU account
   - Documents, Powerpoints, etc. can be shared and live edited, much like Google Drive
+  - Make sure Jim is an owner of all Onedrive files containing data
 
 
 ## GitHub
 
-The lab’s GitHub (https://github.com/alylab) should be used to share code data with the world. Only share data after you’ve spoken to Jim (we don’t want to share the data too soon, before you’ve had a chance to look at it thoroughly yourself). When you share code, make sure it’s flawless, because we don’t want to distribute buggy code to the world! Have other lab members check it if possible. Ask the lab manager to get access to the lab’s GitHub. 
+THIS NEEDS TO BE EDITED
+The lab’s GitHub (<https://github.com/hood211>) should be used to share code data with the world. Only share data after you’ve spoken to Jim (we don’t want to share the data too soon, before you’ve had a chance to look at it thoroughly yourself). When you share code, make sure it’s flawless, because we don’t want to distribute buggy code to the world! Have other lab members check it if possible. Ask the lab manager to get access to the lab’s GitHub. 
  
 ## Google Calendars
 
@@ -429,6 +358,64 @@ Motivated by the concerns of some lab members, and in conversation with them, we
 ## PI Office Hours
 
 In addition to weekly meetings (see below), and occasionally dropping by the lab, Jim is in his AEL office several days a week. His door is frequently open; if it is, feel free to ask for a chat. He will almost always say yes, though sometimes he can only spare a couple of minutes or might ask you to let him finish typing a sentence. If his door is closed, assume that Jim is either gone, in a meeting in his office, or does not want to be disturbed – so please Slack Jim on Teams rather than knocking. Of course, you can always knock if there is a true emergency. 
+
+
+## Routine lab maintenance
+
+
+Be a good lab member: Remember that the lab is a shared environment and there should always be a clean area of bench space available for someone to do lab work. Any areas that you used during the day should be wiped down and cleaned with MilliQ as soon as you are done. This is not only for your own work cleanliness, but also so the area you used is ready for someone else as soon as you are done.
+
+
+### Daily
+
+  - Wipe down counters with MilliQ (before/after performing sample processing and analyses). If you spill any chemicals, treat with the spill kit if necessary, and wipe up immediately. 
+Different projects need to be mindful of their potential impact of on each other. Streams projects deal with nutrient values well above background levels for lakes projects. Wiping down counters with MilliQ when finished processing samples for any project helps prevent contamination.
+- Put away supplies in high-traffic areas (e.g., counters, lab cart)
+As mentioned above, there should always be CLEAN counter space available in the lab for someone to work.
+- Acid wash any field/lab supplies after use—at the end of the day if possible, or as soon as time permits. If you’re unable to acid wash immediately, soak items in MilliQ until items can be acid washed.
+**Streams projects especially need to be sure to rinse and acid wash sample bottles, syringes, filtration gear, and field gear since letting items sit with stream water residue can permanently stain and items with tannins from the water causing contamination carryover in future use of the items. 
+- For SRP/Particulate P analysis on spec: acid wash tubes and caps (scrub tubes with MilliQ and scrub brush, rinse tubes and caps 3x with MilliQ, 3x in acid bath, and do a final 3x rinse with MilliQ). Allow caps to dry face-down on paper towels and tubes to dry upside down in test tube racks. See SRP/particulate P SOPs for full acid washing instructions.
+- Chl-a analysis on Flora: rinse chl tubes and caps three times with MilliQ and allow to dry. Caps should dry face-down on paper towels, tubes should dry upside down in test tube racks. See chl-a SOP for full washing instructions.
+- After filtering: drain manifold, empty water from vacuum flask,  disconnect all tubing lines, rinse with MilliQ, and allow to dry. Acid wash filter towers—filter towers should be scrubbed with a paper towel, scrub brush, and MilliQ before acid washing (sediment/algae is sticky!). Take care not to lose the black filter screen on the 25mm filter towers when acid washing and drying. Once filter towers and manifold are completely dry, you can re-assemble the filter towers and place them back on the manifold, and cover the filter towers with plastic bags.
+- Drying oven and muffle furnace: coordinate with others on use to ensure space for all samples and analyses-- remove samples and store in desiccator or lab drawer if others need the room
+- Balances: turn off balances after use. If you spill anything while weighing, clean off the balance by gently wiping the balance platform with MilliQ and a paper towel. Check the balance after use to make sure there isn’t any residual chemicals left behind from weighing, wipe up if needed.
+- If you notice we’re running low on chemicals (i.e., when there is only half a bottle left) or other general lab supplies (syringes, pipette tips, weigh boats, bottles, ect.)-- contact Blair and Jim to order more. Certain items, such as filters, should be ordered with specific project funds—in these cases you should order enough for your own needs.
+- Reagents: if you use up all or most of a reagent used by the general lab (e.g., reagents used in SRP/Particulate P analysis, 90% acetone for chl-a analysis), prepare more
+- Equipment/Supply organization: clean up and organize equipment and supplies from your project; store in drawers, bins, lockers, ect.
+- Balances: turn off all balances when not in use
+- MilliQ: keep an eye on any MilliQ warnings (replacement parts, cleaning cycles). If a warning appears and it’s easily fixable (e.g., run RO Cl2 cleaning cycle), feel free to address the problem. If it’s a bigger fix (replacement part) or you don’t feel comfortable addressing the warning, contact Blair.
+- Sink/MilliQ area: Do not place supplies or glassware in the sink. Keep this area clean, and clear of your supplies/equipment as much as possible—many other people in the Hood Lab/AEL use the MilliQ system. If you can’t acid wash items immediately, allow items to soak in a bin with MilliQ off to the side. Dry items upside down on paper towels or on drying racks. Once your washed items are dry, return them to their proper place.
+
+
+### Weekly
+- Take out trash/recycle boxes – Do this more frequently if needed. 
+- Sweep lab – If you spill ANYTHING… treat with spill kit if needed and sweep immediately. 
+- Replenish paper towels (as needed)
+- Acid wash any remaining supplies from the week (i.e., things only used by you—scint vials, sample bottles, low-use glassware, ect.)
+- Put away acid washed supplies that have finished drying (for glassware—cover with tin foil and store on plastic-covered shelves; for bottles/scint vials—cap tightly and put into cabinets/storage bins; for tubes—store in containers and caps in bags)
+- Sample organization: remove dried samples from drying oven and ashed samples from the muffle furnace; store in desiccator or lab drawer; organize samples in the freezer to make sure there’s space for others
+- Equipment/Supply organization: clean up and organize equipment and supplies from your project; store in drawers, bins, lockers, ect.
+
+### Monthly
+- Acid bath (replace as needed— e.g., when volume is low or it starts to look yellow tinged indicating that too much water has evaporated and has made the bath more concentration than 10%. Continuing to wash when tinged yellow can damage more fragile pieces of labware (scintillation vial caps, tube caps and their liners etc.)
+
+### Annually/Bi-annually
+- Wipe down all shelving/counters with MilliQ (to prevent P dust buildup)
+- MilliQ: change filters/run cleaning cycles (as needed—alarms on MilliQ will indicate maintenance requirements)
+- Chemical inventory
+- Glassware: make sure there are enough pieces for routine lab tasks and any experiments/intensive lab work. If glassware breaks, consider ordering more if we’re starting to run low on certain items.
+- Fridge/freezer: go through samples and inventory/organize or dispose of anything no longer needed (check with Jim before throwing anything out)
+- Sample organization: go through samples stored in lab and inventory/organize or dispose of anything no longer needed (check with Jim before throwing anything out)
+- Equipment/Supply organization: consider putting any items that haven’t been used in a while in long-term storage (i.e., find a spot in 513, the pool facility, storage shed, boat barn, ect.)
+- Equipment calibration: 
+- Balances (by Mettler Toldeo (Melissa coordinates this for all balances in the AEL))
+- Flora (Keep record of secondary standard. If possible, yearly calibrate with liquid chlorophyll standard from Turner Designs)
+- CHN (preventative maintenance visit suggested prior to getting instrument back up and running)
+- Lachat (calibrate for each sample run and analyze external standards as primary standard checks)
+- Fluoroprobe (manufacturer calibration needed; coordinate with NOAA-GLERL)
+- Spectrophotometer (tag team calibration of the spec using same liquid chlorophyll standards from Turner when doing Flora’s calibration)
+- Pipettes (with so many people using them, a check on their accuracy should be performed at least twice a year—using the precision balance, pipette a standard amount of MilliQ onto the balance and check the weight—1mL water from the pipette should equal 1g on the balance)
+
  
 # Meetings
 
@@ -454,6 +441,9 @@ Assuming that you are in town and do not have any scheduling conflicts, I expect
 
 Editorial Deliberations and Investigations Team (EDIT)
 EDIT (Editorial Deliberations and Investigations Team) is a regular meeting of all professors, postdocs, and students in the AEL. The (current) purpose of EDIT is to 1) read and discuss papers outside the scope of what you might read for your own research and 2) provide a space for AEL members to learn and discuss each other's research. Each meeting, one graduate student or postdoc leads a discussion on a paper or presents their research. I expect that all my students and postdocs attend EDIT, and sign up to lead an EDIT meeting each semester.
+
+
+
  
 # Deadlines
 
@@ -498,29 +488,22 @@ Do not hesitate to ask for letters of recommendation for jobs, grants, etc. If y
 
 Lab data can be stored in one of three places:
  
-1.         Lab server(s): Is the permanent home for LEPAS and other datasets, as well as all materials related to your research (e.g., data, R code, manuscript drafts, SOPs)
-2.         Shared Box folders can be used to share small datasets and/or code with collaborators
-3.         Unity (Arts and Sciences HPC cluster) can be used to store small amounts of data as you are running analyses on it – it is not for permanent storage, as we only have a limited amount of space there
+  - Lab server(s): Is the permanent home for LEPAS and other datasets, as well as all materials related to your research (e.g., data, R code, manuscript drafts, SOPs)
+  - Shared Onedrive folders can be used to share small datasets and/or code with collaborators
+  - Unity (Arts and Sciences HPC cluster) can be used to store small amounts of data as you are running analyses on it – it is not for permanent storage, as we only have a limited amount of space there
  
 ## Data Organization
 
 If you have already run several independent projects and have a data organization structure that works well for you, feel free to use it. If not (or if you are looking for a change), the following structure is recommended:
  
-·      
-projectName/FieldNotes
-Copies of lab notes, excel files with entered field data, ect.
-projectName/LaboratoryAnalyses
-Data from laboratory analyses (AFDM, P, sorption, ect.). You may want a different folder for each analysis
-projectName/definativeData
-Folder with the final datasheet(s) in tidy format
-projectName/scripts
-You should have subfolders for each analysis.(e.g., Sorption, discharge, uptake, etc.)
+  -  **projectName/FieldNotes**: Copies of lab notes, excel files with entered field data, ect.
+  - **projectName/LaboratoryAnalyses**: Data from laboratory analyses (AFDM, P, sorption, ect.). You may want a different folder for each analysis
+  - **projectName/definativeData**: Folder with the final datasheet(s) in tidy format
+  - **projectName/scripts**: You should have subfolders for each analysis.(e.g., Sorption, discharge, uptake, etc.)
 Template scripts and that you may modify for each analysis, as well as scripts and functions used for all analyses
 Within each folder, I find it helpful to number the analyses: “00_” data used in analysis; “01_” data munging, “02_” first analysis, etc. I’m happy to share one of these folders with you so you can see the structure.
-projectName/Talks
-Your talks. A new subfolder for each talk.
-projectName/Manuscripts
-Your manuscripts. A new subfolder for each manuscript. Often it is useful to have subfolders for data, scripts, figures, etc. within a manuscript folder.
+  - **projectName/Talks**: Your talks. A new subfolder for each talk.
+  - **projectName/Manuscripts**: Your manuscripts. A new subfolder for each manuscript. Often it is useful to have subfolders for data, scripts, figures, etc. within a manuscript folder.
  
 When you leave the lab, your projects directories should be set up like this, or something similarly transparent, so that other people can look at your data and code. You must do this, otherwise your analysis pipeline and data structure will be uninterpretable to others once you leave, and this will slow everyone down (and cause us to bug you repeatedly to clean up your project directory or answer questions about it). 
  
@@ -545,54 +528,96 @@ Postdocs and graduate students are strongly advised to apply for funding during 
 At some point, you will likely be asked to provide a figure or two for a grant Jim is writing, and/or provide feedback on the grant. You are entitled to read any grant Jim has submitted, whether it is ultimately funded or not. Aside from being a good opportunity to learn how grants are written, this will also allow you to see his vision for the lab in the years ahead. Feel free to ask Jim to see any of his grants.
 
 Here is a list of links to grants Hood lab members commonly apply for:
-For graduate students
-Edgerly
-Lee Aquatic Fellowship (offered every other year)
-CIGLR
+  - For graduate students
+  - Edgerly
+  - Lee Aquatic Fellowship (offered every other year)
+  - CIGLR
 More general
-OH Sea Grant: has both large and small grants
-Lake Erie Protection Fund
-Ohio Water Resources Center
-National Science Foundation
-Ohio Department of Higher Education
+  - OH Sea Grant: has both large and small grants
+  - Lake Erie Protection Fund
+  - Ohio Water Resources Center
+  - National Science Foundation
+  - Ohio Department of Higher Education
  
 Jim integrate these
-https://guides.osu.edu/c.php?g=893453&p=6452600
-https://www.nsf.gov/funding/pgm_list.jsp?org=BIO
-https://www.epa.gov/great-lakes-funding#:~:text=EPA's%20Great%20Lakes%20program%20administers,Great%20Lakes%20Legacy%20Act%20projects.
+  - https://guides.osu.edu/c.php?g=893453&p=6452600
+  - https://www.nsf.gov/funding/pgm_list.jsp?org=BIO
+  - https://www.epa.gov/great-lakes-funding#:~:text=EPA's%20Great%20Lakes%20program%20administers,Great%20Lakes%20Legacy%20Act%20projects.
 
 The following link contains a document of research grants, fellowships, and travel scholarships. Opportunities for different lab members can be found in each tab of the sheet. The “GradStudent” tab contains grants that may be relevant to post-docs or other researchers. Please add to this and update as you become aware of new funding opportunities. 
 https://docs.google.com/spreadsheets/d/1OSY5TX5TD3EZm9bXaxswrpPIIqmsOwCOlySCrn3RKiE/edit?usp=sharing
 
 
 # Graduate Student Classes
-*Jim will write about how you shouldn’t be taking a lot of classes.*
 
 As a graduate student, the number of credits you must be enrolled in each semester (this includes research credit + classwork) will change based on your graduate standing (pre vs. post-candidacy; GRA/GTA vs. University Fellow, ect.) as well as the academic calendar (autumn/spring vs. summer). Be sure to check the EEOB Graduate Handbook or consult with Corey Ash to make sure you’re enrolled in the proper number of credits each semester. You should also consult with the handbook for the most up-to-date course requirements. The current EEOB course requirements include:
-EEOB 8894: EEOB Introduction Seminar for incoming students
-EEOB 7210: Essential Tools for Computational Biology-- “Computational bootcamp” required for all incoming students
-EEOB 8896: EEOB Graduate seminars-- PhD students are required to take three seminars throughout their degree; MS students must take two seminars
-One full-semester course, or two half-semester courses, in scientific writing offered by EEOB faculty (EEOB 6620, EEOB 6630, EEOB 5798, or EEOB 8896, if specialized for writing).
-At least one graduate-level course in evolution and one graduate-level course in ecology (minimum of 3 credits each). 
+
+
+  - EEOB 8894: EEOB Introduction Seminar for incoming students
+  - EEOB 7210: Essential Tools for Computational Biology-- “Computational bootcamp” required for all incoming students
+  - EEOB 8896: EEOB Graduate seminars-- PhD students are required to take three seminars throughout their degree; MS students must take two seminars
+  - One full-semester course, or two half-semester courses, in scientific writing offered by EEOB faculty (EEOB 6620, EEOB 6630, EEOB 5798, or EEOB 8896, if specialized for writing).
+  - At least one graduate-level course in evolution and one graduate-level course in ecology (minimum of 3 credits each). 
 
 Good classes to fulfill your ecology course requirement include:
-EEOB 5450: Population Ecology
-EEOB 5440: Plankton Ecology
-ENR 5280: Stream Ecology
+
+
+  - EEOB 5450: Population Ecology
+  - EEOB 5440: Plankton Ecology
+  - ENR 5280: Stream Ecology
 
 Good classes to fulfill your evolution course requirement include:
-EEOB 5610: Translating Evolution-- this is the only graduate-level evolution course that AEL students have recommended to take to fulfill the requirement
-EEOB 5320: Society and Evolution-- don’t actually know anyone who’s taken this, but seems interesting
-EEOB 5310: Advanced Evolution (different professors teach this class each semester, so the course content and delivery might change each semester, but I have received overall positive feedback from undergraduates and other EEOB graduate students about this course-- EEOB 3310 (Evolution) is a pre-req, so it might be extra work if you haven’t taken an evolution course in a while)
+
+
+  - EEOB 5610: Translating Evolution-- this is the only graduate-level evolution course that AEL students have recommended to take to fulfill the requirement
+  - EEOB 5320: Society and Evolution-- don’t actually know anyone who’s taken this, but seems interesting
+  - EEOB 5310: Advanced Evolution (different professors teach this class each semester, so the course content and delivery might change each semester, but I have received overall positive feedback from undergraduates and other EEOB graduate students about this course-- EEOB 3310 (Evolution) is a pre-req, so it might be extra work if you haven’t taken an evolution course in a while)
 
 Completing all of your required classes should leave you only a few credits short of the minimum course credits needed for graduation. Useful “elective” courses to fulfill the rest of your credits include:
 
-STAT 5301 and STAT 5302: Intermediate data analysis I and II- STAT 5301 covers basic/intro statistics from p-values to ANOVA; STAT 5302 covers the principles and applications of linear regression and model selection
+  - STAT 5301 and STAT 5302: Intermediate data analysis I and II- 
+  - STAT 5301 covers basic/intro statistics from p-values to ANOVA; STAT 5302 covers the principles and applications of linear regression and model selection
 * Note: many graduate students in EEOB and the AEL have found that most graduate-level courses offered by the statistics department beyond STAT 5301/5302 aren’t particularly useful for their research. Many courses require fairly extensive pre-requisites (i.e., Calculus III, linear algebra) and cover the theory of statistical methods, as opposed to their application. Even courses that do not purport extensive prerequisites can be demanding and require more background knowledge than originally stated. (For example, non-parametic statistics (STAT 6610) lists only a prerequisite of STAT 5301, but requires knowledge of material beyond what is covered in 5301). If you believe a specific STAT course will be useful for your research, talk with the instructor and with Jim.
-ENR 8780: Quantitative Methods for Environment and Natural Resources- This is probably the best/only course that covers the application of higher-level statistical techniques for ecological data. You could probably learn most things covered in this course by reading a Zuur et al. book, but if you need credits and you’re looking for a stats class (and one that lets you work with your own data), this is worth considering.
-ENR 8600-- Introduction to R for Environmental Scientists
+  - ENR 8780: Quantitative Methods for Environment and Natural Resources- This is probably the best/only course that covers the application of higher-level statistical techniques for ecological data. You could probably learn most things covered in this course by reading a Zuur et al. book, but if you need credits and you’re looking for a stats class (and one that lets you work with your own data), this is worth considering.
+  - ENR 8600-- Introduction to R for Environmental Scientists
 
 
+# Undergraduate Research opportunities
+
+There are many types of research positions that you can participate in as an undergraduate student. Below is a list of the positions with general descriptions, expectations, and eligibility for each position.
+
+  - Volunteer: Volunteering in the lab is a great option if you’re new to the lab or to research, can only work a limited number of hours per week, and/or can only work during specific times (i.e., summers only). You may work on a specific project with a single mentor, or conduct general lab tasks to support research for a variety of Hood Lab members-- it is up to you and your mentor to decide what your research activities will be. You should also talk with your mentor each semester to decide on your work schedule and how many hours you can commit in a given week. Before starting in the lab you must complete a Volunteer Agreement Form, which must be submitted to Melissa Marburger(.4). Any high school/minor volunteers need to complete additional paperwork to work in the lab, and anyone working with or in-proximity to a minor needs additional training through OSU.
+
+  - Federal Work Study (FWS): only undergraduates who are eligible for FWS can be hired to a FWS position. You should work with your mentor to decide your research goals and activities, which could include conducting routine lab tasks, working on a variety of projects for different lab members, or developing an independent research project. As a FWS student you shouldn’t sign up for research credit, as your position is considered employment, and you must fill out a bi-weekly timesheet that’s approved by Jim. It is your responsibility to track your FWS funding balance to ensure you don’t exceed your allotted pay over the course of the academic year. Your FWS balance begins in the summer term and ends in the spring term. In order to be eligible for FWS in the summer, you must be enrolled in a minimum of six course credits for the summer term. For more information on FWS please refer to OSU’s FWS website. 
+
+  - Other Paid Research: Available for funded grants in the lab, or if the undergraduate student secures independent funding. Students do not have to be FWS eligible. The research activities you will participate in will be specific to the grant you are being paid from. You will have to fill out a bi-weekly timesheet that’s approved by Jim.
+Research credit: There are a variety of opportunities for undergraduates to earn research credit with our lab. If you wish to enroll in non-thesis research credit, then you should enroll in EEOB 4998 or 4998H (see below). Students must enroll in research credit by the add/drop deadline, which is typically the second Friday of the semester. If you join the lab after this deadline, you can enroll in a Session Two research credit course, which officially begins in the seventh week of the semester. It is up to you and your supervisor to determine the number of research credits you should enroll in for the semester. One credit hour translates to three hours of laboratory, field and/or research work, as per the University bylaws (Chapter 3335-8-24). Activities that qualify toward research credit can entail “routine” laboratory/field/data entry tasks, but can also include small, independent, non-thesis research projects. If you are enrolled in research credit, we expect you to attend and participate in bi-weekly lab meetings. Any time spent preparing for or participating in lab meetings can count toward weekly research credit hours.
+
+  - EEOB 4998 – Undergraduate Research.  (1-12 credit hours)  Students need permission of the instructor and 2 courses in the biological sciences.  Students can enroll in it a maximum of 5 times or 12 credit hours. 
+
+  - EEOB 4998H – Undergraduate Research – Honors.  Same as above, but students must be in the Honors college.
+
+  - Thesis Credit: Students conducting an independent research thesis should enroll in thesis credit. One credit hour translates to three hours of research activity per week, as per the University bylaws (Chapter 3335-8-24). Students should attend lab meetings and present their thesis research at least once during a lab meeting.
+
+  - If students want to do a research thesis they also need to fill out an application and have it approved. See below for links for the appropriate application.
+
+  - EEOB 4999 – Undergraduate Thesis Research. (1-12 credit hours) Undergraduate research towards a thesis. Students need to take this course if they plan to graduate with research distinction. Students need permission of the instructor and 8 credit hours in biological sciences.   Students can enroll in it a maximum of 5 times or 12 credit hours.  
+
+  - EEOB 4999H – Undergraduate Thesis Research – Honors.  Same as 4999, but students must be in the Honors college.  Honors students need to take this course if they plan to graduate with Honors research distinction. More information on honors theses, as well as a link to the thesis application, can be found here.
+ 
+  - NOTE: Regarding research credit-- If students want to take more than 18 credit hours/semester they need to fill out an Over 18 Hour petition with their advisor.  If the petition is approved a student will be allowed to enroll in more than 18 credit hours, and will not be charged additional tuition.  Here’s more information on the tuition:
+
+  - When a student registers for more than 18 credit hours, the student is charged additional tuition for those hours in most cases. The Board of Trustees has approved a narrow set of exceptions where students will not be charged additional tuition when they enroll in more than 18 credit hours. These exceptions are:
+
+  - Internships (courses numbered X191): When a student is registered for more than 18 credit hours and at least one of the courses is an X191 internship course, the student will not be assessed the 18+ credit hour charge.
+
+  - Research (courses numbered X998 and X999): When a student is registered for more than 18 credit hours and at least one of the courses is an X998 or X999 research course, the student will not be assessed the 18+ credit hour charge.
+
+  - Field Experience (courses numbered X189): When a student is registered for more than 18 credit hours and at least one of the courses is an X189 field experience course, the student will not be assessed the 18+ credit hour charge.
+
+  - Courses for Graduating Students: When a student is registered for more than 18 credit hours and is rank 4 and has applied to graduate, the student will not be assessed the 18+ credit hour charge. All other enrollments in more than 18 credit hours will result in additional tuition/fees being assessed.
+
+  - Example questions for interviewing  undergraduate researchers and other resources for undergraduate hiring are located in the Z-drive (Hood Lab protocols > Undergrad Hiring).
 
 
 [1] This was adapted from the code of conduct found *here* and *here.*
